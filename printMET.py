@@ -37,9 +37,9 @@ def main():
     respx = []
     respy = []
     for i in range(len(metpt)):
-	resopt = (metpt[i]-genmetpt[i])/metpt[i]
-	resopx = (metpx[i]-genmetpx[i])/metpx[i]
-	resopy = (metpy[i]-genmetpy[i])/metpy[i]
+	resopt = (genmetpt[i]-metpt[i])/genmetpt[i]
+	resopx = (genmetpx[i]-metpx[i])/genmetpx[i]
+	resopy = (genmetpy[i]-metpy[i])/genmetpy[i]
 
 	respt.append(resopt)
 	respx.append(resopx)
@@ -125,8 +125,8 @@ def count(inputPath, metpt, metpx, metpy, genmetpt, genmetpx, genmetpy):
 	metpx.append(met.px())
         metpy.append(met.py())
 
-	event.getByLabel(("genMetCalo", "", "DIGI2RAW"), handleGenMETs)
-	genmet = handleGenMETs.product().front()
+	event.getByLabel(("caloMet", "", "RECO"), handleCaloMETs)
+	genmet = handleCaloMETs.product().front()
 
 	genmetpt.append(genmet.pt())
 	genmetpx.append(genmet.px())
