@@ -125,8 +125,8 @@ def count(inputPath, metpt, metpx, metpy, genmetpt, genmetpx, genmetpy):
 	metpx.append(met.px())
         metpy.append(met.py())
 
-	event.getByLabel(("caloMet", "", "RECO"), handleCaloMETs)
-	genmet = handleCaloMETs.product().front()
+	event.getByLabel(("genMetTrue", "", "DIGI2RAW"), handleGenMETs)
+	genmet = handleGenMETs.product().front()
 
 	genmetpt.append(genmet.pt())
 	genmetpx.append(genmet.px())
