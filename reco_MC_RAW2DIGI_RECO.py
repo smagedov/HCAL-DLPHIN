@@ -29,8 +29,9 @@ process.maxEvents = cms.untracked.PSet(
 # Input source
 process.source = cms.Source("PoolSource",
     fileNames = cms.untracked.vstring(
+        #"./NanoV9MCPostVFP_100.root"
         #'file:step2.root'
-        "root://cmseos.fnal.gov//eos/uscms/store/user/lpcrutgers/huiwang/HCAL/UL_p1TeV_pion_gun_RAW_PU-2021-05-23/UL_MC_RAW_PU_0.root"
+        "file:/afs/cern.ch/user/s/smagedov/CMSSW_10_6_12/src/HCAL/Generation/GGToHtautau_13TeV_pythia8_cff_step1.root"
         #"root://cmseos.fnal.gov//store/user/lpcrutgers/huiwang/HCAL/UL_p1TeV_pion_gun_RAW_noPU-2021-06-11/UL_MC_RAW_noPU_0.root"
     ),
     secondaryFileNames = cms.untracked.vstring()

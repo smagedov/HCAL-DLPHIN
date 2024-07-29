@@ -1,0 +1,922 @@
+<FrameworkJobReport>
+
+<InputFile>
+<State  Value="closed"/>
+<LFN></LFN>
+<PFN>file:GGToHtautau_13TeV_pythia8_cff_step1.root</PFN>
+<Catalog></Catalog>
+<ModuleLabel>source</ModuleLabel>
+<GUID>C14DE98F-29FA-CB45-A764-2806F66E54B6</GUID>
+<Branches>
+  <Branch>CSCDetIdCSCALCTDigiMuonDigiCollection_simCscTriggerPrimitiveDigis__HLT.</Branch>
+  <Branch>CSCDetIdCSCCLCTDigiMuonDigiCollection_simCscTriggerPrimitiveDigis__HLT.</Branch>
+  <Branch>CSCDetIdCSCCLCTPreTriggerDigiMuonDigiCollection_simCscTriggerPrimitiveDigis__HLT.</Branch>
+  <Branch>CSCDetIdCSCComparatorDigiMuonDigiCollection_simMuonCSCDigis_MuonCSCComparatorDigi_HLT.</Branch>
+  <Branch>CSCDetIdCSCCorrelatedLCTDigiMuonDigiCollection_simCscTriggerPrimitiveDigis__HLT.</Branch>
+  <Branch>CSCDetIdCSCCorrelatedLCTDigiMuonDigiCollection_simCscTriggerPrimitiveDigis_MPCSORTED_HLT.</Branch>
+  <Branch>CSCDetIdCSCStripDigiMuonDigiCollection_simMuonCSCDigis_MuonCSCStripDigi_HLT.</Branch>
+  <Branch>CSCDetIdCSCWireDigiMuonDigiCollection_simMuonCSCDigis_MuonCSCWireDigi_HLT.</Branch>
+  <Branch>CSCDetIdintMuonDigiCollection_simCscTriggerPrimitiveDigis__HLT.</Branch>
+  <Branch>CrossingFramePlaybackInfoNew_mix__HLT.</Branch>
+  <Branch>DTLayerIdDTDigiMuonDigiCollection_simMuonDTDigis__HLT.</Branch>
+  <Branch>DTLayerIdDTDigiSimLinkMuonDigiCollection_simMuonDTDigis__HLT.</Branch>
+  <Branch>DcsStatuss_hltScalersRawToDigi__HLT.</Branch>
+  <Branch>EBDigiCollection_simEcalDigis_ebDigis_HLT.</Branch>
+  <Branch>EBSrFlagsSorted_simEcalDigis_ebSrFlags_HLT.</Branch>
+  <Branch>EEDigiCollection_simEcalDigis_eeDigis_HLT.</Branch>
+  <Branch>EESrFlagsSorted_simEcalDigis_eeSrFlags_HLT.</Branch>
+  <Branch>ESDigiCollection_simEcalPreshowerDigis__HLT.</Branch>
+  <Branch>EcalTriggerPrimitiveDigisSorted_simEcalTriggerPrimitiveDigis__HLT.</Branch>
+  <Branch>FEDRawDataCollection_rawDataCollector__HLT.</Branch>
+  <Branch>GEMDetIdGEMDigiMuonDigiCollection_simMuonGEMDigis__HLT.</Branch>
+  <Branch>GEMDetIdGEMPadDigiClusterMuonDigiCollection_simMuonGEMPadDigiClusters__HLT.</Branch>
+  <Branch>GEMDetIdGEMPadDigiMuonDigiCollection_simMuonGEMPadDigis__HLT.</Branch>
+  <Branch>GEMDigiSimLinkedmDetSetVector_simMuonGEMDigis_GEM_HLT.</Branch>
+  <Branch>GenEventInfoProduct_generator__SIM.</Branch>
+  <Branch>GlobalAlgBlkBXVector_hltGtStage2Digis__HLT.</Branch>
+  <Branch>GlobalExtBlkBXVector_hltGtStage2Digis__HLT.</Branch>
+  <Branch>GlobalObjectMapRecord_hltGtStage2ObjectMap__HLT.</Branch>
+  <Branch>HBHEDataFramesSorted_simHcalDigis__HLT.</Branch>
+  <Branch>HFDataFramesSorted_simHcalDigis__HLT.</Branch>
+  <Branch>HODataFramesSorted_simHcalDigis__HLT.</Branch>
+  <Branch>HcalTriggerPrimitiveDigisSorted_simHcalTriggerPrimitiveDigis__HLT.</Branch>
+  <Branch>L1CaloEmCands_simRctDigis__HLT.</Branch>
+  <Branch>L1CaloRegions_simRctDigis__HLT.</Branch>
+  <Branch>L1GctEmCands_simGctDigis_isoEm_HLT.</Branch>
+  <Branch>L1GctEmCands_simGctDigis_nonIsoEm_HLT.</Branch>
+  <Branch>L1GctEtHads_simGctDigis__HLT.</Branch>
+  <Branch>L1GctEtMisss_simGctDigis__HLT.</Branch>
+  <Branch>L1GctEtTotals_simGctDigis__HLT.</Branch>
+  <Branch>L1GctHFBitCountss_simGctDigis__HLT.</Branch>
+  <Branch>L1GctHFRingEtSumss_simGctDigis__HLT.</Branch>
+  <Branch>L1GctHtMisss_simGctDigis__HLT.</Branch>
+  <Branch>L1GctInternEtSums_simGctDigis__HLT.</Branch>
+  <Branch>L1GctInternHtMisss_simGctDigis__HLT.</Branch>
+  <Branch>L1GctInternJetDatas_simGctDigis__HLT.</Branch>
+  <Branch>L1GctJetCands_simGctDigis_cenJets_HLT.</Branch>
+  <Branch>L1GctJetCands_simGctDigis_forJets_HLT.</Branch>
+  <Branch>L1GctJetCands_simGctDigis_tauJets_HLT.</Branch>
+  <Branch>L1GlobalTriggerEvmReadoutRecord_simGtDigis__HLT.</Branch>
+  <Branch>L1GlobalTriggerObjectMapRecord_simGtDigis__HLT.</Branch>
+  <Branch>L1GlobalTriggerReadoutRecord_simGtDigis__HLT.</Branch>
+  <Branch>L1MuDTChambPhContainer_simDtTriggerPrimitiveDigis__HLT.</Branch>
+  <Branch>L1MuDTChambThContainer_simDtTriggerPrimitiveDigis__HLT.</Branch>
+  <Branch>L1MuDTTrackContainer_simDttfDigis_DTTF_HLT.</Branch>
+  <Branch>L1MuGMTCands_simGmtDigis__HLT.</Branch>
+  <Branch>L1MuGMTReadoutCollection_simGmtDigis__HLT.</Branch>
+  <Branch>L1MuRegionalCands_simCsctfDigis_CSC_HLT.</Branch>
+  <Branch>L1MuRegionalCands_simDttfDigis_DT_HLT.</Branch>
+  <Branch>L1MuRegionalCands_simRpcTriggerDigis_RPCb_HLT.</Branch>
+  <Branch>L1MuRegionalCands_simRpcTriggerDigis_RPCf_HLT.</Branch>
+  <Branch>LumiScalerss_hltScalersRawToDigi__HLT.</Branch>
+  <Branch>PCaloHits_g4SimHits_CaloHitsTk_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_CastorBU_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_CastorFI_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_CastorPL_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_CastorTU_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_ChamberHits_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_EcalHitsEB_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_EcalHitsEE_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_EcalHitsES_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_EcalTBH4BeamHits_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_FibreHits_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_HFNoseHits_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_HGCHitsEE_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_HGCHitsHEback_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_HGCHitsHEfront_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_HcalHits_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_HcalTB06BeamHits_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_WedgeHits_SIM.</Branch>
+  <Branch>PCaloHits_g4SimHits_ZDCHITS_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_BCM1FHits_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_BHMHits_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_BSCHits_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_FP420SI_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_FastTimerHitsBarrel_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_FastTimerHitsEndcap_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_MuonCSCHits_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_MuonDTHits_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_MuonGEMHits_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_MuonME0Hits_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_MuonRPCHits_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_PLTHits_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_TotemHitsRP_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_TotemHitsT1_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_TotemHitsT2Gem_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsPixelBarrelHighTof_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsPixelBarrelLowTof_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsPixelEndcapHighTof_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsPixelEndcapLowTof_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsTECHighTof_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsTECLowTof_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsTIBHighTof_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsTIBLowTof_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsTIDHighTof_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsTIDLowTof_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsTOBHighTof_SIM.</Branch>
+  <Branch>PSimHits_g4SimHits_TrackerHitsTOBLowTof_SIM.</Branch>
+  <Branch>PileupSummaryInfos_addPileupInfo__HLT.</Branch>
+  <Branch>PixelDigiSimLinkedmDetSetVector_simSiPixelDigis__HLT.</Branch>
+  <Branch>PixelDigiedmDetSetVector_simSiPixelDigis__HLT.</Branch>
+  <Branch>QIE10DataFrameHcalDataFrameContainer_simHcalDigis_HFQIE10DigiCollection_HLT.</Branch>
+  <Branch>QIE11DataFrameHcalDataFrameContainer_simHcalDigis_HBHEQIE11DigiCollection_HLT.</Branch>
+  <Branch>RPCDetIdRPCDigiMuonDigiCollection_simMuonRPCDigis__HLT.</Branch>
+  <Branch>RPCDigiL1Links_simRpcTriggerDigis_RPCb_HLT.</Branch>
+  <Branch>RPCDigiL1Links_simRpcTriggerDigis_RPCf_HLT.</Branch>
+  <Branch>RPCDigiSimLinkedmDetSetVector_simMuonRPCDigis_RPCDigiSimLink_HLT.</Branch>
+  <Branch>SiStripDigiedmDetSetVector_simSiStripDigis_ZeroSuppressed_HLT.</Branch>
+  <Branch>SiStripRawDigiedmDetSetVector_simSiStripDigis_ProcessedRaw_HLT.</Branch>
+  <Branch>SiStripRawDigiedmDetSetVector_simSiStripDigis_ScopeMode_HLT.</Branch>
+  <Branch>SiStripRawDigiedmDetSetVector_simSiStripDigis_StripAPVBaselines_HLT.</Branch>
+  <Branch>SiStripRawDigiedmDetSetVector_simSiStripDigis_StripAmplitudes_HLT.</Branch>
+  <Branch>SiStripRawDigiedmDetSetVector_simSiStripDigis_StripAmplitudesPostAPV_HLT.</Branch>
+  <Branch>SiStripRawDigiedmDetSetVector_simSiStripDigis_VirginRaw_HLT.</Branch>
+  <Branch>SimTracks_g4SimHits__SIM.</Branch>
+  <Branch>SimVertexs_g4SimHits__SIM.</Branch>
+  <Branch>StripDigiSimLinkedmDetSetVector_simMuonCSCDigis_MuonCSCStripDigiSimLinks_HLT.</Branch>
+  <Branch>StripDigiSimLinkedmDetSetVector_simMuonCSCDigis_MuonCSCWireDigiSimLinks_HLT.</Branch>
+  <Branch>StripDigiSimLinkedmDetSetVector_simMuonGEMDigis_GEM_HLT.</Branch>
+  <Branch>StripDigiSimLinkedmDetSetVector_simSiStripDigis__HLT.</Branch>
+  <Branch>TrackingParticles_mix_MergedTrackTruth_HLT.</Branch>
+  <Branch>TrackingVertexs_mix_MergedTrackTruth_HLT.</Branch>
+  <Branch>ZDCDataFramesSorted_simHcalUnsuppressedDigis__HLT.</Branch>
+  <Branch>cscL1TrackCSCDetIdCSCCorrelatedLCTDigiMuonDigiCollectionstdpairs_simCsctfTrackDigis__HLT.</Branch>
+  <Branch>csctfTrackStubCSCTriggerContainer_simCsctfTrackDigis__HLT.</Branch>
+  <Branch>double_ak4GenJets_rho_HLT.</Branch>
+  <Branch>double_ak4GenJets_sigma_HLT.</Branch>
+  <Branch>double_ak4GenJetsNoNu_rho_HLT.</Branch>
+  <Branch>double_ak4GenJetsNoNu_sigma_HLT.</Branch>
+  <Branch>double_ak8GenJets_rho_HLT.</Branch>
+  <Branch>double_ak8GenJets_sigma_HLT.</Branch>
+  <Branch>double_ak8GenJetsNoNu_rho_HLT.</Branch>
+  <Branch>double_ak8GenJetsNoNu_sigma_HLT.</Branch>
+  <Branch>doubles_ak4GenJets_rhos_HLT.</Branch>
+  <Branch>doubles_ak4GenJets_sigmas_HLT.</Branch>
+  <Branch>doubles_ak4GenJetsNoNu_rhos_HLT.</Branch>
+  <Branch>doubles_ak4GenJetsNoNu_sigmas_HLT.</Branch>
+  <Branch>doubles_ak8GenJets_rhos_HLT.</Branch>
+  <Branch>doubles_ak8GenJets_sigmas_HLT.</Branch>
+  <Branch>doubles_ak8GenJetsNoNu_rhos_HLT.</Branch>
+  <Branch>doubles_ak8GenJetsNoNu_sigmas_HLT.</Branch>
+  <Branch>edmHepMCProduct_generatorSmeared__HLT.</Branch>
+  <Branch>edmHepMCProduct_generatorSmeared__SIM.</Branch>
+  <Branch>edmRandomEngineStates_randomEngineStateProducer__HLT.</Branch>
+  <Branch>edmRandomEngineStates_randomEngineStateProducer__SIM.</Branch>
+  <Branch>edmTriggerResults_TriggerResults__HLT.</Branch>
+  <Branch>edmTriggerResults_TriggerResults__SIM.</Branch>
+  <Branch>float_genParticles_t0_HLT.</Branch>
+  <Branch>floatROOTMathCartesian3DROOTMathDefaultCoordinateSystemTagROOTMathPositionVector3D_genParticles_xyz0_HLT.</Branch>
+  <Branch>int_addPileupInfo_bunchSpacing_HLT.</Branch>
+  <Branch>int6stdbitsetstdpairs_mix_AffectedAPVList_HLT.</Branch>
+  <Branch>ints_genParticles__HLT.</Branch>
+  <Branch>l1tEGammaBXVector_hltGtStage2Digis_EGamma_HLT.</Branch>
+  <Branch>l1tEGammaBXVector_hltGtStage2Digis_EGamma2_HLT.</Branch>
+  <Branch>l1tEGammaBXVector_hltGtStage2Digis_EGamma3_HLT.</Branch>
+  <Branch>l1tEGammaBXVector_hltGtStage2Digis_EGamma4_HLT.</Branch>
+  <Branch>l1tEGammaBXVector_hltGtStage2Digis_EGamma5_HLT.</Branch>
+  <Branch>l1tEGammaBXVector_hltGtStage2Digis_EGamma6_HLT.</Branch>
+  <Branch>l1tEtSumBXVector_hltGtStage2Digis_EtSum_HLT.</Branch>
+  <Branch>l1tEtSumBXVector_hltGtStage2Digis_EtSum2_HLT.</Branch>
+  <Branch>l1tEtSumBXVector_hltGtStage2Digis_EtSum3_HLT.</Branch>
+  <Branch>l1tEtSumBXVector_hltGtStage2Digis_EtSum4_HLT.</Branch>
+  <Branch>l1tEtSumBXVector_hltGtStage2Digis_EtSum5_HLT.</Branch>
+  <Branch>l1tEtSumBXVector_hltGtStage2Digis_EtSum6_HLT.</Branch>
+  <Branch>l1tJetBXVector_hltGtStage2Digis_Jet_HLT.</Branch>
+  <Branch>l1tJetBXVector_hltGtStage2Digis_Jet2_HLT.</Branch>
+  <Branch>l1tJetBXVector_hltGtStage2Digis_Jet3_HLT.</Branch>
+  <Branch>l1tJetBXVector_hltGtStage2Digis_Jet4_HLT.</Branch>
+  <Branch>l1tJetBXVector_hltGtStage2Digis_Jet5_HLT.</Branch>
+  <Branch>l1tJetBXVector_hltGtStage2Digis_Jet6_HLT.</Branch>
+  <Branch>l1tMuonBXVector_hltGtStage2Digis_Muon_HLT.</Branch>
+  <Branch>l1tMuonBXVector_hltGtStage2Digis_Muon2_HLT.</Branch>
+  <Branch>l1tMuonBXVector_hltGtStage2Digis_Muon3_HLT.</Branch>
+  <Branch>l1tMuonBXVector_hltGtStage2Digis_Muon4_HLT.</Branch>
+  <Branch>l1tMuonBXVector_hltGtStage2Digis_Muon5_HLT.</Branch>
+  <Branch>l1tMuonBXVector_hltGtStage2Digis_Muon6_HLT.</Branch>
+  <Branch>l1tTauBXVector_hltGtStage2Digis_Tau_HLT.</Branch>
+  <Branch>l1tTauBXVector_hltGtStage2Digis_Tau2_HLT.</Branch>
+  <Branch>l1tTauBXVector_hltGtStage2Digis_Tau3_HLT.</Branch>
+  <Branch>l1tTauBXVector_hltGtStage2Digis_Tau4_HLT.</Branch>
+  <Branch>l1tTauBXVector_hltGtStage2Digis_Tau5_HLT.</Branch>
+  <Branch>l1tTauBXVector_hltGtStage2Digis_Tau6_HLT.</Branch>
+  <Branch>recoBeamSpot_hltOnlineBeamSpot__HLT.</Branch>
+  <Branch>recoGenJets_ak4GenJets__HLT.</Branch>
+  <Branch>recoGenJets_ak4GenJetsNoNu__HLT.</Branch>
+  <Branch>recoGenJets_ak8GenJets__HLT.</Branch>
+  <Branch>recoGenJets_ak8GenJetsNoNu__HLT.</Branch>
+  <Branch>recoGenMETs_genMetCalo__HLT.</Branch>
+  <Branch>recoGenMETs_genMetTrue__HLT.</Branch>
+  <Branch>recoGenParticles_genPUProtons__HLT.</Branch>
+  <Branch>recoGenParticles_genParticles__HLT.</Branch>
+  <Branch>triggerTriggerEvent_hltTriggerSummaryAOD__HLT.</Branch>
+  <Branch>triggerTriggerEventWithRefs_hltTriggerSummaryRAW__HLT.</Branch>
+  <Branch>triggerTriggerFilterObjectWithRefs_hltL1sZeroBias__HLT.</Branch>
+</Branches>
+<InputType>primaryFiles</InputType>
+<InputSourceClass>PoolSource</InputSourceClass>
+<EventsRead>10</EventsRead>
+<Runs>
+<Run ID="1">
+   <LumiSection ID="1"/>
+</Run>
+
+</Runs>
+</InputFile>
+
+<File>
+<State  Value="closed"/>
+<LFN></LFN>
+<PFN>file:GGToHtautau_13TeV_pythia8_cff_step2.root</PFN>
+<Catalog></Catalog>
+<ModuleLabel>AODSIMoutput</ModuleLabel>
+<GUID>EEB4CDCE-FF01-3D41-89A7-E3699B5364B4</GUID>
+<Branches>
+  <Branch>GenEventInfoProduct_generator__SIM.</Branch>
+  <Branch>edmTriggerResults_TriggerResults__SIM.</Branch>
+  <Branch>GlobalObjectMapRecord_hltGtStage2ObjectMap__HLT.</Branch>
+  <Branch>floatROOTMathCartesian3DROOTMathDefaultCoordinateSystemTagROOTMathPositionVector3D_genParticles_xyz0_HLT.</Branch>
+  <Branch>double_ak4GenJets_rho_HLT.</Branch>
+  <Branch>double_ak4GenJetsNoNu_rho_HLT.</Branch>
+  <Branch>double_ak8GenJets_rho_HLT.</Branch>
+  <Branch>double_ak8GenJetsNoNu_rho_HLT.</Branch>
+  <Branch>double_ak4GenJets_sigma_HLT.</Branch>
+  <Branch>double_ak4GenJetsNoNu_sigma_HLT.</Branch>
+  <Branch>double_ak8GenJets_sigma_HLT.</Branch>
+  <Branch>double_ak8GenJetsNoNu_sigma_HLT.</Branch>
+  <Branch>edmTriggerResults_TriggerResults__HLT.</Branch>
+  <Branch>float_genParticles_t0_HLT.</Branch>
+  <Branch>int_addPileupInfo_bunchSpacing_HLT.</Branch>
+  <Branch>PileupSummaryInfos_addPileupInfo__HLT.</Branch>
+  <Branch>doubles_ak4GenJets_rhos_HLT.</Branch>
+  <Branch>doubles_ak4GenJetsNoNu_rhos_HLT.</Branch>
+  <Branch>doubles_ak8GenJets_rhos_HLT.</Branch>
+  <Branch>doubles_ak8GenJetsNoNu_rhos_HLT.</Branch>
+  <Branch>doubles_ak4GenJets_sigmas_HLT.</Branch>
+  <Branch>doubles_ak4GenJetsNoNu_sigmas_HLT.</Branch>
+  <Branch>doubles_ak8GenJets_sigmas_HLT.</Branch>
+  <Branch>doubles_ak8GenJetsNoNu_sigmas_HLT.</Branch>
+  <Branch>ints_genParticles__HLT.</Branch>
+  <Branch>recoGenJets_ak4GenJets__HLT.</Branch>
+  <Branch>recoGenJets_ak4GenJetsNoNu__HLT.</Branch>
+  <Branch>recoGenJets_ak8GenJets__HLT.</Branch>
+  <Branch>recoGenJets_ak8GenJetsNoNu__HLT.</Branch>
+  <Branch>recoGenMETs_genMetCalo__HLT.</Branch>
+  <Branch>recoGenMETs_genMetTrue__HLT.</Branch>
+  <Branch>recoGenParticles_genPUProtons__HLT.</Branch>
+  <Branch>recoGenParticles_genParticles__HLT.</Branch>
+  <Branch>triggerTriggerEvent_hltTriggerSummaryAOD__HLT.</Branch>
+  <Branch>CTPPSRecord_onlineMetaDataDigis__RECO.</Branch>
+  <Branch>ClusterSummary_clusterSummaryProducer__RECO.</Branch>
+  <Branch>DCSRecord_onlineMetaDataDigis__RECO.</Branch>
+  <Branch>EBDigiCollection_selectDigi_selectedEcalEBDigiCollection_RECO.</Branch>
+  <Branch>EEDigiCollection_selectDigi_selectedEcalEEDigiCollection_RECO.</Branch>
+  <Branch>HcalNoiseSummary_hcalnoise__RECO.</Branch>
+  <Branch>HcalUnpackerReport_castorDigis__RECO.</Branch>
+  <Branch>HcalUnpackerReport_hcalDigis__RECO.</Branch>
+  <Branch>L1GlobalTriggerObjectMaps_l1L1GtObjectMap__RECO.</Branch>
+  <Branch>L1GlobalTriggerReadoutRecord_gtDigis__RECO.</Branch>
+  <Branch>OnlineLuminosityRecord_onlineMetaDataDigis__RECO.</Branch>
+  <Branch>TCDSRecord_tcdsDigis_tcdsRecord_RECO.</Branch>
+  <Branch>double_fixedGridRhoAll__RECO.</Branch>
+  <Branch>double_fixedGridRhoFastjetAll__RECO.</Branch>
+  <Branch>double_fixedGridRhoFastjetAllCalo__RECO.</Branch>
+  <Branch>double_fixedGridRhoFastjetAllTmp__RECO.</Branch>
+  <Branch>double_fixedGridRhoFastjetCentral__RECO.</Branch>
+  <Branch>double_fixedGridRhoFastjetCentralCalo__RECO.</Branch>
+  <Branch>double_fixedGridRhoFastjetCentralChargedPileUp__RECO.</Branch>
+  <Branch>double_fixedGridRhoFastjetCentralNeutral__RECO.</Branch>
+  <Branch>double_ak4CaloJets_rho_RECO.</Branch>
+  <Branch>double_ak4PFJets_rho_RECO.</Branch>
+  <Branch>double_ak4PFJetsCHS_rho_RECO.</Branch>
+  <Branch>double_ak4TrackJets_rho_RECO.</Branch>
+  <Branch>double_ak5CastorJets_rho_RECO.</Branch>
+  <Branch>double_ak7CastorJets_rho_RECO.</Branch>
+  <Branch>double_ak8PFJetsCHS_rho_RECO.</Branch>
+  <Branch>double_ak8PFJetsCHSSoftDrop_rho_RECO.</Branch>
+  <Branch>double_cmsTopTagPFJetsCHS_rho_RECO.</Branch>
+  <Branch>double_ak4CaloJets_sigma_RECO.</Branch>
+  <Branch>double_ak4PFJets_sigma_RECO.</Branch>
+  <Branch>double_ak4PFJetsCHS_sigma_RECO.</Branch>
+  <Branch>double_ak4TrackJets_sigma_RECO.</Branch>
+  <Branch>double_ak5CastorJets_sigma_RECO.</Branch>
+  <Branch>double_ak7CastorJets_sigma_RECO.</Branch>
+  <Branch>double_ak8PFJetsCHS_sigma_RECO.</Branch>
+  <Branch>double_ak8PFJetsCHSSoftDrop_sigma_RECO.</Branch>
+  <Branch>double_cmsTopTagPFJetsCHS_sigma_RECO.</Branch>
+  <Branch>recoDeDxHitInfosedmAssociation_dedxHitInfo__RECO.</Branch>
+  <Branch>recoGenParticlesedmAssociation_muonSimClassifier_toPrimaries_RECO.</Branch>
+  <Branch>recoGenParticlesedmAssociation_muonSimClassifier_toSecondaries_RECO.</Branch>
+  <Branch>recoTracksedmAssociation_lowPtGsfToTrackLinks__RECO.</Branch>
+  <Branch>recoVertexsedmAssociation_offlinePrimaryVertices__RECO.</Branch>
+  <Branch>recoVertexsedmAssociation_offlinePrimaryVerticesWithBS__RECO.</Branch>
+  <Branch>recoSuperClustersToOnerecoHFEMClusterShapesAssociation_hfEMClusters__RECO.</Branch>
+  <Branch>recoTracksToOnerecoTracksAssociation_tevMuons_default_RECO.</Branch>
+  <Branch>recoTracksToOnerecoTracksAssociation_tevMuons_dyt_RECO.</Branch>
+  <Branch>recoTracksToOnerecoTracksAssociation_tevMuons_firstHit_RECO.</Branch>
+  <Branch>recoTracksToOnerecoTracksAssociation_tevMuons_picky_RECO.</Branch>
+  <Branch>recoPFTausedmRefProdrecoPFTauTransverseImpactParametersrecoPFTauTransverseImpactParameterrecoPFTauTransverseImpactParametersTorecoPFTauTransverseImpactParameteredmrefhelperFindUsingAdvanceedmRefsAssociationVector_hpsPFTauTransverseImpactParameters__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdrecoTracksrecoTrackrecoTracksTorecoTrackedmrefhelperFindUsingAdvanceedmRefVectorsAssociationVector_ak4JetTracksAssociatorAtVertex__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdrecoTracksrecoTrackrecoTracksTorecoTrackedmrefhelperFindUsingAdvanceedmRefVectorsAssociationVector_ak4JetTracksAssociatorAtVertexPF__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdrecoTracksrecoTrackrecoTracksTorecoTrackedmrefhelperFindUsingAdvanceedmRefVectorsAssociationVector_ak4JetTracksAssociatorExplicit__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfChargeBJetTags__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfCombinedCvsBJetTags__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfCombinedCvsLJetTags__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfCombinedInclusiveSecondaryVertexV2BJetTags__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfCombinedInclusiveSecondaryVertexV2BJetTagsEI__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfCombinedMVAV2BJetTags__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfCombinedSecondaryVertexV2BJetTags__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfGhostTrackBJetTags__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfJetBProbabilityBJetTags__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfJetProbabilityBJetTags__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfSimpleInclusiveSecondaryVertexHighEffBJetTags__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfSimpleSecondaryVertexHighEffBJetTags__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfTrackCountingHighEffBJetTags__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_softPFElectronBJetTags__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_softPFMuonBJetTags__RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfDeepCMVAJetTags_probb_RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfDeepCSVJetTags_probb_RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfDeepCMVAJetTags_probbb_RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfDeepCSVJetTags_probbb_RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfDeepCMVAJetTags_probc_RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfDeepCSVJetTags_probc_RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfDeepCMVAJetTags_probcc_RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfDeepCMVAJetTags_probudsg_RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTofloatsAssociationVector_pfDeepCSVJetTags_probudsg_RECO.</Branch>
+  <Branch>recoJetedmRefToBaseProdTorecoJetExtendedAssociationJetExtendedDatasAssociationVector_ak4JetExtender__RECO.</Branch>
+  <Branch>edmConditionsInEventBlock_conditionsInEdm__RECO.</Branch>
+  <Branch>TrackingRecHitsOwned_displacedGlobalMuons__RECO.</Branch>
+  <Branch>TrackingRecHitsOwned_displacedStandAloneMuons__RECO.</Branch>
+  <Branch>TrackingRecHitsOwned_refittedStandAloneMuons__RECO.</Branch>
+  <Branch>TrackingRecHitsOwned_standAloneMuons__RECO.</Branch>
+  <Branch>CSCDetIdCSCSegmentsOwnedRangeMap_cscSegments__RECO.</Branch>
+  <Branch>DTChamberIdDTRecSegment4DsOwnedRangeMap_dt4DCosmicSegments__RECO.</Branch>
+  <Branch>DTChamberIdDTRecSegment4DsOwnedRangeMap_dt4DSegments__RECO.</Branch>
+  <Branch>GEMDetIdGEMRecHitsOwnedRangeMap_gemRecHits__RECO.</Branch>
+  <Branch>GEMDetIdGEMSegmentsOwnedRangeMap_gemSegments__RECO.</Branch>
+  <Branch>RPCDetIdRPCRecHitsOwnedRangeMap_rpcRecHits__RECO.</Branch>
+  <Branch>CastorRecHitsSorted_castorreco__RECO.</Branch>
+  <Branch>EcalRecHitsSorted_reducedEcalRecHitsEB__RECO.</Branch>
+  <Branch>EcalRecHitsSorted_reducedEcalRecHitsEE__RECO.</Branch>
+  <Branch>EcalRecHitsSorted_reducedEcalRecHitsES__RECO.</Branch>
+  <Branch>HBHERecHitsSorted_reducedHcalRecHits_hbhereco_RECO.</Branch>
+  <Branch>HFRecHitsSorted_reducedHcalRecHits_hfreco_RECO.</Branch>
+  <Branch>HORecHitsSorted_reducedHcalRecHits_horeco_RECO.</Branch>
+  <Branch>edmTriggerResults_TriggerResults__RECO.</Branch>
+  <Branch>booledmValueMap_chargedHadronPFTrackIsolation__RECO.</Branch>
+  <Branch>booledmValueMap_PhotonIDProd_PhotonCutBasedIDLoose_RECO.</Branch>
+  <Branch>booledmValueMap_PhotonIDProdGED_PhotonCutBasedIDLoose_RECO.</Branch>
+  <Branch>booledmValueMap_PhotonIDProd_PhotonCutBasedIDLooseEM_RECO.</Branch>
+  <Branch>booledmValueMap_PhotonIDProdGED_PhotonCutBasedIDLooseEM_RECO.</Branch>
+  <Branch>booledmValueMap_PhotonIDProd_PhotonCutBasedIDTight_RECO.</Branch>
+  <Branch>booledmValueMap_PhotonIDProdGED_PhotonCutBasedIDTight_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidAllArbitrated_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidGMStaChiCompatibility_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidGMTkChiCompatibility_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidGMTkKinkTight_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidGlobalMuonPromptTight_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidRPCMuLoose_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidTM2DCompatibilityLoose_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidTM2DCompatibilityTight_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidTMLastStationAngLoose_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidTMLastStationAngTight_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidTMLastStationLoose_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidTMLastStationOptimizedLowPtLoose_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidTMLastStationOptimizedLowPtTight_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidTMLastStationTight_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidTMOneStationAngLoose_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidTMOneStationAngTight_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidTMOneStationLoose_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidTMOneStationTight_RECO.</Branch>
+  <Branch>booledmValueMap_muons_muidTrackerMuonArbitrated_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFMeanDRIsoValueCharged03_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFMeanDRIsoValueCharged04_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFMeanDRIsoValueChargedAll03_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFMeanDRIsoValueChargedAll04_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFMeanDRIsoValueGamma03_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFMeanDRIsoValueGamma04_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFMeanDRIsoValueGammaHighThreshold03_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFMeanDRIsoValueGammaHighThreshold04_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFMeanDRIsoValueNeutral03_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFMeanDRIsoValueNeutral04_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFMeanDRIsoValueNeutralHighThreshold03_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFMeanDRIsoValueNeutralHighThreshold04_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFMeanDRIsoValuePU03_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFMeanDRIsoValuePU04_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFSumDRIsoValueCharged03_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFSumDRIsoValueCharged04_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFSumDRIsoValueChargedAll03_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFSumDRIsoValueChargedAll04_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFSumDRIsoValueGamma03_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFSumDRIsoValueGamma04_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFSumDRIsoValueGammaHighThreshold03_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFSumDRIsoValueGammaHighThreshold04_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFSumDRIsoValueNeutral03_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFSumDRIsoValueNeutral04_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFSumDRIsoValueNeutralHighThreshold03_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFSumDRIsoValueNeutralHighThreshold04_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFSumDRIsoValuePU03_RECO.</Branch>
+  <Branch>doubleedmValueMap_muons_muPFSumDRIsoValuePU04_RECO.</Branch>
+  <Branch>recoPFCandidateedmPtredmValueMap_particleFlow_electrons_RECO.</Branch>
+  <Branch>recoPFCandidateedmPtredmValueMap_particleFlow_muons_RECO.</Branch>
+  <Branch>recoPFCandidateedmPtredmValueMap_particleFlow_photons_RECO.</Branch>
+  <Branch>floatedmValueMap_ak8PFJetsCHSSoftDropMass__RECO.</Branch>
+  <Branch>floatedmValueMap_eidLoose__RECO.</Branch>
+  <Branch>floatedmValueMap_eidRobustHighEnergy__RECO.</Branch>
+  <Branch>floatedmValueMap_eidRobustLoose__RECO.</Branch>
+  <Branch>floatedmValueMap_eidRobustTight__RECO.</Branch>
+  <Branch>floatedmValueMap_eidTight__RECO.</Branch>
+  <Branch>floatedmValueMap_lowPtGsfElectronID__RECO.</Branch>
+  <Branch>floatedmValueMap_offlinePrimaryVertices__RECO.</Branch>
+  <Branch>floatedmValueMap_offlinePrimaryVerticesWithBS__RECO.</Branch>
+  <Branch>floatedmValueMap_lowPtGsfElectronSeedValueMaps_ptbiased_RECO.</Branch>
+  <Branch>floatedmValueMap_lowPtGsfElectronSeedValueMaps_unbiased_RECO.</Branch>
+  <Branch>intedmValueMap_offlinePrimaryVertices__RECO.</Branch>
+  <Branch>intedmValueMap_offlinePrimaryVerticesWithBS__RECO.</Branch>
+  <Branch>intedmValueMap_dedxHitInfo_prescale_RECO.</Branch>
+  <Branch>recoCastorJetIDedmValueMap_ak5CastorJetID__RECO.</Branch>
+  <Branch>recoCastorJetIDedmValueMap_ak7CastorJetID__RECO.</Branch>
+  <Branch>recoDeDxDataedmValueMap_dedxHarmonic2__RECO.</Branch>
+  <Branch>recoDeDxDataedmValueMap_dedxPixelHarmonic2__RECO.</Branch>
+  <Branch>recoJetIDedmValueMap_ak4JetID__RECO.</Branch>
+  <Branch>recoMuonCosmicCompatibilityedmValueMap_muons_cosmicsVeto_RECO.</Branch>
+  <Branch>recoMuonMETCorrectionDataedmValueMap_muonMETValueMapProducer_muCorrData_RECO.</Branch>
+  <Branch>recoMuonShoweredmValueMap_muons_muonShowerInformation_RECO.</Branch>
+  <Branch>recoMuonSimInfoedmValueMap_muonSimClassifier__RECO.</Branch>
+  <Branch>recoMuonTimeExtraedmValueMap_muons_combined_RECO.</Branch>
+  <Branch>recoMuonTimeExtraedmValueMap_muons_csc_RECO.</Branch>
+  <Branch>recoMuonTimeExtraedmValueMap_muons_dt_RECO.</Branch>
+  <Branch>recoPFCandidatesrecoPFCandidaterecoPFCandidatesrecoPFCandidateedmrefhelperFindUsingAdvanceedmRefsedmValueMap_particleBasedIsolation_gedGsfElectrons_RECO.</Branch>
+  <Branch>recoPFCandidatesrecoPFCandidaterecoPFCandidatesrecoPFCandidateedmrefhelperFindUsingAdvanceedmRefsedmValueMap_particleBasedIsolation_gedPhotons_RECO.</Branch>
+  <Branch>uintedmValueMap_muons_cosmicsVeto_RECO.</Branch>
+  <Branch>recoBeamHaloSummary_BeamHaloSummary__RECO.</Branch>
+  <Branch>recoBeamSpot_offlineBeamSpot__RECO.</Branch>
+  <Branch>recoBeamSpot_onlineMetaDataDigis__RECO.</Branch>
+  <Branch>recoCSCHaloData_CSCHaloData__RECO.</Branch>
+  <Branch>recoGlobalHaloData_GlobalHaloData__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauChargedIsoPtSum__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauChargedIsoPtSumdR03__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByDeadECALElectronRejection__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByDecayModeFinding__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByDecayModeFindingNewDMs__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByDecayModeFindingOldDMs__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByIsolationMVArun2v1DBdR03oldDMwLTraw__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByIsolationMVArun2v1DBnewDMwLTraw__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByIsolationMVArun2v1DBoldDMwLTraw__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByIsolationMVArun2v1PWdR03oldDMwLTraw__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByIsolationMVArun2v1PWnewDMwLTraw__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByIsolationMVArun2v1PWoldDMwLTraw__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByLooseChargedIsolation__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByLooseCombinedIsolationDBSumPtCorr3Hits__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByLooseCombinedIsolationDBSumPtCorr3HitsdR03__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByLooseIsolation__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByLooseIsolationMVArun2v1DBdR03oldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByLooseIsolationMVArun2v1DBnewDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByLooseIsolationMVArun2v1DBoldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByLooseIsolationMVArun2v1PWdR03oldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByLooseIsolationMVArun2v1PWnewDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByLooseIsolationMVArun2v1PWoldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByLooseMuonRejection3__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByMVA6LooseElectronRejection__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByMVA6MediumElectronRejection__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByMVA6TightElectronRejection__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByMVA6VLooseElectronRejection__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByMVA6VTightElectronRejection__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByMVA6rawElectronRejection__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByMediumCombinedIsolationDBSumPtCorr3Hits__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByMediumCombinedIsolationDBSumPtCorr3HitsdR03__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByMediumIsolationMVArun2v1DBdR03oldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByMediumIsolationMVArun2v1DBnewDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByMediumIsolationMVArun2v1DBoldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByMediumIsolationMVArun2v1PWdR03oldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByMediumIsolationMVArun2v1PWnewDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByMediumIsolationMVArun2v1PWoldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByPhotonPtSumOutsideSignalCone__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByRawCombinedIsolationDBSumPtCorr3Hits__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByTightCombinedIsolationDBSumPtCorr3Hits__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByTightCombinedIsolationDBSumPtCorr3HitsdR03__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByTightIsolationMVArun2v1DBdR03oldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByTightIsolationMVArun2v1DBnewDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByTightIsolationMVArun2v1DBoldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByTightIsolationMVArun2v1PWdR03oldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByTightIsolationMVArun2v1PWnewDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByTightIsolationMVArun2v1PWoldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByTightMuonRejection3__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVLooseIsolationMVArun2v1DBdR03oldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVLooseIsolationMVArun2v1DBnewDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVLooseIsolationMVArun2v1DBoldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVLooseIsolationMVArun2v1PWdR03oldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVLooseIsolationMVArun2v1PWnewDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVLooseIsolationMVArun2v1PWoldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVTightIsolationMVArun2v1DBdR03oldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVTightIsolationMVArun2v1DBnewDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVTightIsolationMVArun2v1DBoldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVTightIsolationMVArun2v1PWdR03oldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVTightIsolationMVArun2v1PWnewDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVTightIsolationMVArun2v1PWoldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVVLooseIsolationMVArun2v1DBdR03oldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVVLooseIsolationMVArun2v1DBnewDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVVLooseIsolationMVArun2v1DBoldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVVTightIsolationMVArun2v1DBdR03oldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVVTightIsolationMVArun2v1DBnewDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVVTightIsolationMVArun2v1DBoldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVVTightIsolationMVArun2v1PWdR03oldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVVTightIsolationMVArun2v1PWnewDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByVVTightIsolationMVArun2v1PWoldDMwLT__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauFootprintCorrection__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauFootprintCorrectiondR03__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauNeutralIsoPtSum__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauNeutralIsoPtSumWeight__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauNeutralIsoPtSumWeightdR03__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauNeutralIsoPtSumdR03__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauPUcorrPtSum__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauPhotonPtSumOutsideSignalCone__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauPhotonPtSumOutsideSignalConedR03__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_pfTausDiscriminationByDecayModeFinding__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_pfTausDiscriminationByIsolation__RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByIsolationMVArun2v1DBdR03oldDMwLTraw_category_RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByIsolationMVArun2v1DBnewDMwLTraw_category_RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByIsolationMVArun2v1DBoldDMwLTraw_category_RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByIsolationMVArun2v1PWdR03oldDMwLTraw_category_RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByIsolationMVArun2v1PWnewDMwLTraw_category_RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByIsolationMVArun2v1PWoldDMwLTraw_category_RECO.</Branch>
+  <Branch>recoPFTauDiscriminator_hpsPFTauDiscriminationByMVA6rawElectronRejection_category_RECO.</Branch>
+  <Branch>BeamSpotOnlines_scalersRawToDigi__RECO.</Branch>
+  <Branch>DcsStatuss_scalersRawToDigi__RECO.</Branch>
+  <Branch>L1AcceptBunchCrossings_scalersRawToDigi__RECO.</Branch>
+  <Branch>L1TriggerScalerss_scalersRawToDigi__RECO.</Branch>
+  <Branch>Level1TriggerScalerss_scalersRawToDigi__RECO.</Branch>
+  <Branch>LumiScalerss_scalersRawToDigi__RECO.</Branch>
+  <Branch>doubles_ak4PFJetsCHS_rhos_RECO.</Branch>
+  <Branch>doubles_ak8PFJetsCHS_rhos_RECO.</Branch>
+  <Branch>doubles_ak8PFJetsCHSSoftDrop_rhos_RECO.</Branch>
+  <Branch>doubles_cmsTopTagPFJetsCHS_rhos_RECO.</Branch>
+  <Branch>doubles_ak4PFJetsCHS_sigmas_RECO.</Branch>
+  <Branch>doubles_ak8PFJetsCHS_sigmas_RECO.</Branch>
+  <Branch>doubles_ak8PFJetsCHSSoftDrop_sigmas_RECO.</Branch>
+  <Branch>doubles_cmsTopTagPFJetsCHS_sigmas_RECO.</Branch>
+  <Branch>edmErrorSummaryEntrys_logErrorHarvester__RECO.</Branch>
+  <Branch>recoPFCandidateedmFwdPtrs_particleFlowPtrs__RECO.</Branch>
+  <Branch>recoPFCandidateedmFwdPtrs_particleFlowTmpPtrs__RECO.</Branch>
+  <Branch>recoPFCandidateedmFwdPtrs_pfIsolatedElectronsEI__RECO.</Branch>
+  <Branch>recoPFCandidateedmFwdPtrs_pfIsolatedMuonsEI__RECO.</Branch>
+  <Branch>floats_generalTracks_MVAValues_RECO.</Branch>
+  <Branch>l1extraL1EmParticles_l1extraParticles_Isolated_RECO.</Branch>
+  <Branch>l1extraL1EmParticles_l1extraParticles_NonIsolated_RECO.</Branch>
+  <Branch>l1extraL1EtMissParticles_l1extraParticles_MET_RECO.</Branch>
+  <Branch>l1extraL1EtMissParticles_l1extraParticles_MHT_RECO.</Branch>
+  <Branch>l1extraL1HFRingss_l1extraParticles__RECO.</Branch>
+  <Branch>l1extraL1JetParticles_l1extraParticles_Central_RECO.</Branch>
+  <Branch>l1extraL1JetParticles_l1extraParticles_Forward_RECO.</Branch>
+  <Branch>l1extraL1JetParticles_l1extraParticles_IsoTau_RECO.</Branch>
+  <Branch>l1extraL1JetParticles_l1extraParticles_Tau_RECO.</Branch>
+  <Branch>l1extraL1MuonParticles_l1extraParticles__RECO.</Branch>
+  <Branch>recoBasicJets_ak5CastorJets__RECO.</Branch>
+  <Branch>recoBasicJets_ak7CastorJets__RECO.</Branch>
+  <Branch>recoBasicJets_ak8PFJetsCHSSoftDrop__RECO.</Branch>
+  <Branch>recoBasicJets_cmsTopTagPFJetsCHS__RECO.</Branch>
+  <Branch>recoCaloClusters_hfEMClusters__RECO.</Branch>
+  <Branch>recoCaloClusters_lowPtGsfElectronSuperClusters__RECO.</Branch>
+  <Branch>recoCaloClusters_particleFlowEGamma_EBEEClusters_RECO.</Branch>
+  <Branch>recoCaloClusters_particleFlowEGamma_ESClusters_RECO.</Branch>
+  <Branch>recoCaloClusters_hybridSuperClusters_hybridBarrelBasicClusters_RECO.</Branch>
+  <Branch>recoCaloClusters_multi5x5SuperClusters_multi5x5EndcapBasicClusters_RECO.</Branch>
+  <Branch>recoCaloClusters_particleFlowSuperClusterECAL_particleFlowBasicClusterECALBarrel_RECO.</Branch>
+  <Branch>recoCaloClusters_particleFlowSuperClusterECAL_particleFlowBasicClusterECALEndcap_RECO.</Branch>
+  <Branch>recoCaloClusters_particleFlowSuperClusterECAL_particleFlowBasicClusterECALPreshower_RECO.</Branch>
+  <Branch>recoCaloClusters_particleFlowSuperClusterOOTECAL_particleFlowBasicClusterOOTECALBarrel_RECO.</Branch>
+  <Branch>recoCaloClusters_particleFlowSuperClusterOOTECAL_particleFlowBasicClusterOOTECALEndcap_RECO.</Branch>
+  <Branch>recoCaloClusters_particleFlowSuperClusterOOTECAL_particleFlowBasicClusterOOTECALPreshower_RECO.</Branch>
+  <Branch>recoCaloClusters_hybridSuperClusters_uncleanOnlyHybridBarrelBasicClusters_RECO.</Branch>
+  <Branch>recoCaloJets_ak4CaloJets__RECO.</Branch>
+  <Branch>recoCaloMETs_caloMet__RECO.</Branch>
+  <Branch>recoCaloMETs_caloMetBE__RECO.</Branch>
+  <Branch>recoCaloMETs_caloMetBEFO__RECO.</Branch>
+  <Branch>recoCaloMETs_caloMetM__RECO.</Branch>
+  <Branch>recoCastorTowers_CastorTowerReco__RECO.</Branch>
+  <Branch>recoConversions_allConversions__RECO.</Branch>
+  <Branch>recoConversions_conversions__RECO.</Branch>
+  <Branch>recoConversions_particleFlowEGamma__RECO.</Branch>
+  <Branch>recoConversions_uncleanedOnlyAllConversions__RECO.</Branch>
+  <Branch>recoConversions_gsfTracksOpenConversions_gsfTracksOpenConversions_RECO.</Branch>
+  <Branch>recoDeDxHitInfos_dedxHitInfo__RECO.</Branch>
+  <Branch>recoGenParticles_muonSimClassifier_secondaries_RECO.</Branch>
+  <Branch>recoGsfElectrons_gedGsfElectrons__RECO.</Branch>
+  <Branch>recoGsfElectrons_lowPtGsfElectrons__RECO.</Branch>
+  <Branch>recoGsfElectrons_uncleanedOnlyGsfElectrons__RECO.</Branch>
+  <Branch>recoGsfElectronCores_gedGsfElectronCores__RECO.</Branch>
+  <Branch>recoGsfElectronCores_lowPtGsfElectronCores__RECO.</Branch>
+  <Branch>recoGsfElectronCores_uncleanedOnlyGsfElectronCores__RECO.</Branch>
+  <Branch>recoGsfTracks_electronGsfTracks__RECO.</Branch>
+  <Branch>recoGsfTracks_lowPtGsfEleGsfTracks__RECO.</Branch>
+  <Branch>recoHFEMClusterShapes_hfEMClusters__RECO.</Branch>
+  <Branch>recoJPTJets_JetPlusTrackZSPCorJetAntiKt4__RECO.</Branch>
+  <Branch>recoMuons_muons__RECO.</Branch>
+  <Branch>recoMuons_muonsFromCosmics__RECO.</Branch>
+  <Branch>recoMuons_muonsFromCosmics1Leg__RECO.</Branch>
+  <Branch>recoPFCandidates_particleFlow__RECO.</Branch>
+  <Branch>recoPFCandidates_pfIsolatedElectronsEI__RECO.</Branch>
+  <Branch>recoPFCandidates_pfIsolatedMuonsEI__RECO.</Branch>
+  <Branch>recoPFCandidates_particleFlowTmp_AddedMuonsAndHadrons_RECO.</Branch>
+  <Branch>recoPFCandidates_particleFlowTmp_CleanedCosmicsMuons_RECO.</Branch>
+  <Branch>recoPFCandidates_particleFlowTmp_CleanedFakeMuons_RECO.</Branch>
+  <Branch>recoPFCandidates_particleFlowTmp_CleanedHF_RECO.</Branch>
+  <Branch>recoPFCandidates_particleFlowTmp_CleanedPunchThroughMuons_RECO.</Branch>
+  <Branch>recoPFCandidates_particleFlowTmp_CleanedPunchThroughNeutralHadrons_RECO.</Branch>
+  <Branch>recoPFCandidates_particleFlowTmp_CleanedTrackerAndGlobalMuons_RECO.</Branch>
+  <Branch>recoPFJets_ak4PFJets__RECO.</Branch>
+  <Branch>recoPFJets_ak4PFJetsCHS__RECO.</Branch>
+  <Branch>recoPFJets_ak8PFJetsCHS__RECO.</Branch>
+  <Branch>recoPFJets_pfJetsEI__RECO.</Branch>
+  <Branch>recoPFJets_ak8PFJetsCHSSoftDrop_SubJets_RECO.</Branch>
+  <Branch>recoPFJets_cmsTopTagPFJetsCHS_caTopSubJets_RECO.</Branch>
+  <Branch>recoPFMETs_pfChMet__RECO.</Branch>
+  <Branch>recoPFMETs_pfMet__RECO.</Branch>
+  <Branch>recoPFMETs_pfMetEI__RECO.</Branch>
+  <Branch>recoPFRecHits_particleFlowRecHitECAL_Cleaned_RECO.</Branch>
+  <Branch>recoPFRecHits_particleFlowRecHitHBHE_Cleaned_RECO.</Branch>
+  <Branch>recoPFRecHits_particleFlowRecHitHF_Cleaned_RECO.</Branch>
+  <Branch>recoPFRecHits_particleFlowRecHitHO_Cleaned_RECO.</Branch>
+  <Branch>recoPFRecHits_particleFlowRecHitPS_Cleaned_RECO.</Branch>
+  <Branch>recoPFTaus_hpsPFTauProducer__RECO.</Branch>
+  <Branch>recoPFTaus_pfTausEI__RECO.</Branch>
+  <Branch>recoPFTauTransverseImpactParameters_hpsPFTauTransverseImpactParameters_PFTauTIP_RECO.</Branch>
+  <Branch>recoPhotons_gedPhotons__RECO.</Branch>
+  <Branch>recoPhotons_ootPhotons__RECO.</Branch>
+  <Branch>recoPhotons_photons__RECO.</Branch>
+  <Branch>recoPhotonCores_gedPhotonCore__RECO.</Branch>
+  <Branch>recoPhotonCores_ootPhotonCore__RECO.</Branch>
+  <Branch>recoPhotonCores_photonCore__RECO.</Branch>
+  <Branch>recoPreshowerClusters_multi5x5SuperClustersWithPreshower_preshowerXClusters_RECO.</Branch>
+  <Branch>recoPreshowerClusters_multi5x5SuperClustersWithPreshower_preshowerYClusters_RECO.</Branch>
+  <Branch>recoPreshowerClusterShapes_multi5x5PreshowerClusterShape_multi5x5PreshowerXClustersShape_RECO.</Branch>
+  <Branch>recoPreshowerClusterShapes_multi5x5PreshowerClusterShape_multi5x5PreshowerYClustersShape_RECO.</Branch>
+  <Branch>recoRecoChargedRefCandidates_trackRefsForJets__RECO.</Branch>
+  <Branch>recoRecoEcalCandidates_hfRecoEcalCandidate__RECO.</Branch>
+  <Branch>recoRecoTauPiZeros_hpsPFTauProducer_pizeros_RECO.</Branch>
+  <Branch>recoSuperClusters_correctedHybridSuperClusters__RECO.</Branch>
+  <Branch>recoSuperClusters_correctedMulti5x5SuperClustersWithPreshower__RECO.</Branch>
+  <Branch>recoSuperClusters_hfEMClusters__RECO.</Branch>
+  <Branch>recoSuperClusters_lowPtGsfElectronSuperClusters__RECO.</Branch>
+  <Branch>recoSuperClusters_particleFlowEGamma__RECO.</Branch>
+  <Branch>recoSuperClusters_particleFlowSuperClusterECAL_particleFlowSuperClusterECALBarrel_RECO.</Branch>
+  <Branch>recoSuperClusters_particleFlowSuperClusterECAL_particleFlowSuperClusterECALEndcapWithPreshower_RECO.</Branch>
+  <Branch>recoSuperClusters_particleFlowSuperClusterOOTECAL_particleFlowSuperClusterOOTECALBarrel_RECO.</Branch>
+  <Branch>recoSuperClusters_particleFlowSuperClusterOOTECAL_particleFlowSuperClusterOOTECALEndcapWithPreshower_RECO.</Branch>
+  <Branch>recoSuperClusters_hybridSuperClusters_uncleanOnlyHybridSuperClusters_RECO.</Branch>
+  <Branch>recoTracks_ckfInOutTracksFromConversions__RECO.</Branch>
+  <Branch>recoTracks_ckfOutInTracksFromConversions__RECO.</Branch>
+  <Branch>recoTracks_conversionStepTracks__RECO.</Branch>
+  <Branch>recoTracks_cosmicMuons__RECO.</Branch>
+  <Branch>recoTracks_cosmicMuons1Leg__RECO.</Branch>
+  <Branch>recoTracks_displacedGlobalMuons__RECO.</Branch>
+  <Branch>recoTracks_displacedStandAloneMuons__RECO.</Branch>
+  <Branch>recoTracks_displacedTracks__RECO.</Branch>
+  <Branch>recoTracks_generalTracks__RECO.</Branch>
+  <Branch>recoTracks_globalMuons__RECO.</Branch>
+  <Branch>recoTracks_refittedStandAloneMuons__RECO.</Branch>
+  <Branch>recoTracks_standAloneMuons__RECO.</Branch>
+  <Branch>recoTracks_uncleanedOnlyCkfInOutTracksFromConversions__RECO.</Branch>
+  <Branch>recoTracks_uncleanedOnlyCkfOutInTracksFromConversions__RECO.</Branch>
+  <Branch>recoTracks_refittedStandAloneMuons_UpdatedAtVtx_RECO.</Branch>
+  <Branch>recoTracks_standAloneMuons_UpdatedAtVtx_RECO.</Branch>
+  <Branch>recoTracks_tevMuons_default_RECO.</Branch>
+  <Branch>recoTracks_tevMuons_dyt_RECO.</Branch>
+  <Branch>recoTracks_tevMuons_firstHit_RECO.</Branch>
+  <Branch>recoTracks_tevMuons_picky_RECO.</Branch>
+  <Branch>recoTrackExtras_displacedGlobalMuons__RECO.</Branch>
+  <Branch>recoTrackExtras_displacedStandAloneMuons__RECO.</Branch>
+  <Branch>recoTrackExtras_globalMuons__RECO.</Branch>
+  <Branch>recoTrackExtras_refittedStandAloneMuons__RECO.</Branch>
+  <Branch>recoTrackExtras_standAloneMuons__RECO.</Branch>
+  <Branch>recoTrackExtras_tevMuons_default_RECO.</Branch>
+  <Branch>recoTrackExtras_tevMuons_dyt_RECO.</Branch>
+  <Branch>recoTrackExtras_tevMuons_firstHit_RECO.</Branch>
+  <Branch>recoTrackExtras_tevMuons_picky_RECO.</Branch>
+  <Branch>recoTrackExtrapolations_trackExtrapolator__RECO.</Branch>
+  <Branch>recoTrackJets_ak4TrackJets__RECO.</Branch>
+  <Branch>recoVertexs_inclusiveSecondaryVertices__RECO.</Branch>
+  <Branch>recoVertexs_offlinePrimaryVertices__RECO.</Branch>
+  <Branch>recoVertexs_offlinePrimaryVerticesWithBS__RECO.</Branch>
+  <Branch>recoVertexCompositeCandidates_generalV0Candidates_Kshort_RECO.</Branch>
+  <Branch>recoVertexCompositeCandidates_generalV0Candidates_Lambda_RECO.</Branch>
+  <Branch>recoVertexCompositePtrCandidates_inclusiveCandidateSecondaryVertices__RECO.</Branch>
+  <Branch>recoVertexCompositePtrCandidates_inclusiveCandidateSecondaryVerticesCvsL__RECO.</Branch>
+</Branches>
+<OutputModuleClass>PoolOutputModule</OutputModuleClass>
+<TotalEvents>10</TotalEvents>
+
+<DataType>MC</DataType>
+
+<BranchHash>8ae1172da9dc26e56401e929fe6e80b7</BranchHash>
+
+<Runs>
+<Run ID="1">
+   <LumiSection ID="1" NEvents="10"/>
+</Run>
+
+</Runs>
+
+<Inputs>
+<Input>
+  <LFN></LFN>
+  <PFN>file:GGToHtautau_13TeV_pythia8_cff_step1.root</PFN>
+  <FastCopying>0</FastCopying>
+</Input>
+</Inputs>
+</File>
+<ReadBranches>
+<Branch Name="DTLayerIdDTDigiMuonDigiCollection_simMuonDTDigis__HLT." ReadCount="10"/>
+<Branch Name="DTLayerIdDTDigiSimLinkMuonDigiCollection_simMuonDTDigis__HLT." ReadCount="10"/>
+<Branch Name="FEDRawDataCollection_rawDataCollector__HLT." ReadCount="10"/>
+<Branch Name="GenEventInfoProduct_generator__SIM." ReadCount="10"/>
+<Branch Name="GlobalObjectMapRecord_hltGtStage2ObjectMap__HLT." ReadCount="10"/>
+<Branch Name="PileupSummaryInfos_addPileupInfo__HLT." ReadCount="10"/>
+<Branch Name="PixelDigiSimLinkedmDetSetVector_simSiPixelDigis__HLT." ReadCount="10"/>
+<Branch Name="RPCDigiSimLinkedmDetSetVector_simMuonRPCDigis_RPCDigiSimLink_HLT." ReadCount="10"/>
+<Branch Name="StripDigiSimLinkedmDetSetVector_simMuonCSCDigis_MuonCSCStripDigiSimLinks_HLT." ReadCount="10"/>
+<Branch Name="StripDigiSimLinkedmDetSetVector_simMuonGEMDigis_GEM_HLT." ReadCount="10"/>
+<Branch Name="StripDigiSimLinkedmDetSetVector_simSiStripDigis__HLT." ReadCount="10"/>
+<Branch Name="TrackingParticles_mix_MergedTrackTruth_HLT." ReadCount="10"/>
+<Branch Name="TrackingVertexs_mix_MergedTrackTruth_HLT." ReadCount="5"/>
+<Branch Name="double_ak4GenJetsNoNu_rho_HLT." ReadCount="10"/>
+<Branch Name="double_ak4GenJetsNoNu_sigma_HLT." ReadCount="10"/>
+<Branch Name="double_ak4GenJets_rho_HLT." ReadCount="10"/>
+<Branch Name="double_ak4GenJets_sigma_HLT." ReadCount="10"/>
+<Branch Name="double_ak8GenJetsNoNu_rho_HLT." ReadCount="10"/>
+<Branch Name="double_ak8GenJetsNoNu_sigma_HLT." ReadCount="10"/>
+<Branch Name="double_ak8GenJets_rho_HLT." ReadCount="10"/>
+<Branch Name="double_ak8GenJets_sigma_HLT." ReadCount="10"/>
+<Branch Name="doubles_ak4GenJetsNoNu_rhos_HLT." ReadCount="10"/>
+<Branch Name="doubles_ak4GenJetsNoNu_sigmas_HLT." ReadCount="10"/>
+<Branch Name="doubles_ak4GenJets_rhos_HLT." ReadCount="10"/>
+<Branch Name="doubles_ak4GenJets_sigmas_HLT." ReadCount="10"/>
+<Branch Name="doubles_ak8GenJetsNoNu_rhos_HLT." ReadCount="10"/>
+<Branch Name="doubles_ak8GenJetsNoNu_sigmas_HLT." ReadCount="10"/>
+<Branch Name="doubles_ak8GenJets_rhos_HLT." ReadCount="10"/>
+<Branch Name="doubles_ak8GenJets_sigmas_HLT." ReadCount="10"/>
+<Branch Name="edmTriggerResults_TriggerResults__HLT." ReadCount="10"/>
+<Branch Name="edmTriggerResults_TriggerResults__SIM." ReadCount="10"/>
+<Branch Name="floatROOTMathCartesian3DROOTMathDefaultCoordinateSystemTagROOTMathPositionVector3D_genParticles_xyz0_HLT." ReadCount="10"/>
+<Branch Name="float_genParticles_t0_HLT." ReadCount="10"/>
+<Branch Name="int_addPileupInfo_bunchSpacing_HLT." ReadCount="10"/>
+<Branch Name="ints_genParticles__HLT." ReadCount="10"/>
+<Branch Name="recoGenJets_ak4GenJetsNoNu__HLT." ReadCount="10"/>
+<Branch Name="recoGenJets_ak4GenJets__HLT." ReadCount="10"/>
+<Branch Name="recoGenJets_ak8GenJetsNoNu__HLT." ReadCount="10"/>
+<Branch Name="recoGenJets_ak8GenJets__HLT." ReadCount="10"/>
+<Branch Name="recoGenMETs_genMetCalo__HLT." ReadCount="10"/>
+<Branch Name="recoGenMETs_genMetTrue__HLT." ReadCount="10"/>
+<Branch Name="recoGenParticles_genPUProtons__HLT." ReadCount="10"/>
+<Branch Name="recoGenParticles_genParticles__HLT." ReadCount="10"/>
+<Branch Name="triggerTriggerEvent_hltTriggerSummaryAOD__HLT." ReadCount="10"/>
+</ReadBranches>
+<PerformanceReport>
+  <PerformanceSummary Metric="StorageStatistics">
+    <Metric Name="Parameter-untracked-bool-enabled" Value="true"/>
+    <Metric Name="Parameter-untracked-bool-prefetching" Value="false"/>
+    <Metric Name="Parameter-untracked-bool-stats" Value="true"/>
+    <Metric Name="Parameter-untracked-string-cacheHint" Value="auto-detect"/>
+    <Metric Name="Parameter-untracked-string-readHint" Value="auto-detect"/>
+    <Metric Name="ROOT-tfile-read-totalMegabytes" Value="14.4163"/>
+    <Metric Name="ROOT-tfile-write-totalMegabytes" Value="0"/>
+    <Metric Name="Timing-file-close-maxMsecs" Value="0.076323"/>
+    <Metric Name="Timing-file-close-minMsecs" Value="0.013889"/>
+    <Metric Name="Timing-file-close-numOperations" Value="2"/>
+    <Metric Name="Timing-file-close-numSuccessfulOperations" Value="2"/>
+    <Metric Name="Timing-file-close-totalMegabytes" Value="0"/>
+    <Metric Name="Timing-file-close-totalMsecs" Value="0.090212"/>
+    <Metric Name="Timing-file-construct-maxMsecs" Value="5.3e-05"/>
+    <Metric Name="Timing-file-construct-minMsecs" Value="5e-05"/>
+    <Metric Name="Timing-file-construct-numOperations" Value="2"/>
+    <Metric Name="Timing-file-construct-numSuccessfulOperations" Value="2"/>
+    <Metric Name="Timing-file-construct-totalMegabytes" Value="0"/>
+    <Metric Name="Timing-file-construct-totalMsecs" Value="0.000103"/>
+    <Metric Name="Timing-file-flush-maxMsecs" Value="144.243"/>
+    <Metric Name="Timing-file-flush-minMsecs" Value="11.0237"/>
+    <Metric Name="Timing-file-flush-numOperations" Value="2"/>
+    <Metric Name="Timing-file-flush-numSuccessfulOperations" Value="2"/>
+    <Metric Name="Timing-file-flush-totalMegabytes" Value="0"/>
+    <Metric Name="Timing-file-flush-totalMsecs" Value="155.266"/>
+    <Metric Name="Timing-file-open-maxMsecs" Value="0.613063"/>
+    <Metric Name="Timing-file-open-minMsecs" Value="0.043825"/>
+    <Metric Name="Timing-file-open-numOperations" Value="2"/>
+    <Metric Name="Timing-file-open-numSuccessfulOperations" Value="2"/>
+    <Metric Name="Timing-file-open-totalMegabytes" Value="0"/>
+    <Metric Name="Timing-file-open-totalMsecs" Value="0.656888"/>
+    <Metric Name="Timing-file-position-maxMsecs" Value="1.19011"/>
+    <Metric Name="Timing-file-position-minMsecs" Value="0.00039"/>
+    <Metric Name="Timing-file-position-numOperations" Value="7005"/>
+    <Metric Name="Timing-file-position-numSuccessfulOperations" Value="7005"/>
+    <Metric Name="Timing-file-position-totalMegabytes" Value="0"/>
+    <Metric Name="Timing-file-position-totalMsecs" Value="10.5134"/>
+    <Metric Name="Timing-file-prefetch-maxMsecs" Value="0.009371"/>
+    <Metric Name="Timing-file-prefetch-minMsecs" Value="4.7e-05"/>
+    <Metric Name="Timing-file-prefetch-numOperations" Value="624"/>
+    <Metric Name="Timing-file-prefetch-numSuccessfulOperations" Value="624"/>
+    <Metric Name="Timing-file-prefetch-totalMegabytes" Value="12.4606"/>
+    <Metric Name="Timing-file-prefetch-totalMsecs" Value="0.450806"/>
+    <Metric Name="Timing-file-read-maxMsecs" Value="0.337606"/>
+    <Metric Name="Timing-file-read-minMsecs" Value="0.000723"/>
+    <Metric Name="Timing-file-read-numOperations" Value="317"/>
+    <Metric Name="Timing-file-read-numSuccessfulOperations" Value="317"/>
+    <Metric Name="Timing-file-read-totalMegabytes" Value="3.07621"/>
+    <Metric Name="Timing-file-read-totalMsecs" Value="1.66704"/>
+    <Metric Name="Timing-file-readv-maxMsecs" Value="0"/>
+    <Metric Name="Timing-file-readv-minMsecs" Value="0"/>
+    <Metric Name="Timing-file-readv-numOperations" Value="0"/>
+    <Metric Name="Timing-file-readv-numSuccessfulOperations" Value="0"/>
+    <Metric Name="Timing-file-readv-totalMegabytes" Value="0"/>
+    <Metric Name="Timing-file-readv-totalMsecs" Value="0"/>
+    <Metric Name="Timing-file-stagein-maxMsecs" Value="0.001655"/>
+    <Metric Name="Timing-file-stagein-minMsecs" Value="0.001655"/>
+    <Metric Name="Timing-file-stagein-numOperations" Value="1"/>
+    <Metric Name="Timing-file-stagein-numSuccessfulOperations" Value="1"/>
+    <Metric Name="Timing-file-stagein-totalMegabytes" Value="0"/>
+    <Metric Name="Timing-file-stagein-totalMsecs" Value="0.001655"/>
+    <Metric Name="Timing-file-write-maxMsecs" Value="0.907583"/>
+    <Metric Name="Timing-file-write-minMsecs" Value="0.001939"/>
+    <Metric Name="Timing-file-write-numOperations" Value="6374"/>
+    <Metric Name="Timing-file-write-numSuccessfulOperations" Value="6374"/>
+    <Metric Name="Timing-file-write-totalMegabytes" Value="3.01945"/>
+    <Metric Name="Timing-file-write-totalMsecs" Value="39.9921"/>
+    <Metric Name="Timing-file-writev-maxMsecs" Value="0"/>
+    <Metric Name="Timing-file-writev-minMsecs" Value="0"/>
+    <Metric Name="Timing-file-writev-numOperations" Value="0"/>
+    <Metric Name="Timing-file-writev-numSuccessfulOperations" Value="0"/>
+    <Metric Name="Timing-file-writev-totalMegabytes" Value="0"/>
+    <Metric Name="Timing-file-writev-totalMsecs" Value="0"/>
+    <Metric Name="Timing-tstoragefile-close-maxMsecs" Value="0.079013"/>
+    <Metric Name="Timing-tstoragefile-close-minMsecs" Value="0.015737"/>
+    <Metric Name="Timing-tstoragefile-close-numOperations" Value="2"/>
+    <Metric Name="Timing-tstoragefile-close-numSuccessfulOperations" Value="2"/>
+    <Metric Name="Timing-tstoragefile-close-totalMegabytes" Value="0"/>
+    <Metric Name="Timing-tstoragefile-close-totalMsecs" Value="0.09475"/>
+    <Metric Name="Timing-tstoragefile-construct-maxMsecs" Value="994.747"/>
+    <Metric Name="Timing-tstoragefile-construct-minMsecs" Value="45.576"/>
+    <Metric Name="Timing-tstoragefile-construct-numOperations" Value="2"/>
+    <Metric Name="Timing-tstoragefile-construct-numSuccessfulOperations" Value="2"/>
+    <Metric Name="Timing-tstoragefile-construct-totalMegabytes" Value="0"/>
+    <Metric Name="Timing-tstoragefile-construct-totalMsecs" Value="1040.32"/>
+    <Metric Name="Timing-tstoragefile-flush-maxMsecs" Value="144.246"/>
+    <Metric Name="Timing-tstoragefile-flush-minMsecs" Value="11.0245"/>
+    <Metric Name="Timing-tstoragefile-flush-numOperations" Value="2"/>
+    <Metric Name="Timing-tstoragefile-flush-numSuccessfulOperations" Value="2"/>
+    <Metric Name="Timing-tstoragefile-flush-totalMegabytes" Value="0"/>
+    <Metric Name="Timing-tstoragefile-flush-totalMsecs" Value="155.27"/>
+    <Metric Name="Timing-tstoragefile-read-maxMsecs" Value="0.340287"/>
+    <Metric Name="Timing-tstoragefile-read-minMsecs" Value="0.001687"/>
+    <Metric Name="Timing-tstoragefile-read-numOperations" Value="317"/>
+    <Metric Name="Timing-tstoragefile-read-numSuccessfulOperations" Value="317"/>
+    <Metric Name="Timing-tstoragefile-read-totalMegabytes" Value="3.07621"/>
+    <Metric Name="Timing-tstoragefile-read-totalMsecs" Value="2.02204"/>
+    <Metric Name="Timing-tstoragefile-readActual-maxMsecs" Value="0.338299"/>
+    <Metric Name="Timing-tstoragefile-readActual-minMsecs" Value="0.000836"/>
+    <Metric Name="Timing-tstoragefile-readActual-numOperations" Value="317"/>
+    <Metric Name="Timing-tstoragefile-readActual-numSuccessfulOperations" Value="317"/>
+    <Metric Name="Timing-tstoragefile-readActual-totalMegabytes" Value="3.07621"/>
+    <Metric Name="Timing-tstoragefile-readActual-totalMsecs" Value="1.72433"/>
+    <Metric Name="Timing-tstoragefile-readAsync-maxMsecs" Value="0.01409"/>
+    <Metric Name="Timing-tstoragefile-readAsync-minMsecs" Value="0.000163"/>
+    <Metric Name="Timing-tstoragefile-readAsync-numOperations" Value="624"/>
+    <Metric Name="Timing-tstoragefile-readAsync-numSuccessfulOperations" Value="624"/>
+    <Metric Name="Timing-tstoragefile-readAsync-totalMegabytes" Value="10.0621"/>
+    <Metric Name="Timing-tstoragefile-readAsync-totalMsecs" Value="0.581583"/>
+    <Metric Name="Timing-tstoragefile-readPrefetchToCache-maxMsecs" Value="0.000795"/>
+    <Metric Name="Timing-tstoragefile-readPrefetchToCache-minMsecs" Value="8.7e-05"/>
+    <Metric Name="Timing-tstoragefile-readPrefetchToCache-numOperations" Value="299"/>
+    <Metric Name="Timing-tstoragefile-readPrefetchToCache-numSuccessfulOperations" Value="298"/>
+    <Metric Name="Timing-tstoragefile-readPrefetchToCache-totalMegabytes" Value="2.98739"/>
+    <Metric Name="Timing-tstoragefile-readPrefetchToCache-totalMsecs" Value="0.050244"/>
+    <Metric Name="Timing-tstoragefile-seek-maxMsecs" Value="1.19093"/>
+    <Metric Name="Timing-tstoragefile-seek-minMsecs" Value="0.000503"/>
+    <Metric Name="Timing-tstoragefile-seek-numOperations" Value="6989"/>
+    <Metric Name="Timing-tstoragefile-seek-numSuccessfulOperations" Value="6989"/>
+    <Metric Name="Timing-tstoragefile-seek-totalMegabytes" Value="0"/>
+    <Metric Name="Timing-tstoragefile-seek-totalMsecs" Value="12.6274"/>
+    <Metric Name="Timing-tstoragefile-stat-maxMsecs" Value="0.003238"/>
+    <Metric Name="Timing-tstoragefile-stat-minMsecs" Value="0.002003"/>
+    <Metric Name="Timing-tstoragefile-stat-numOperations" Value="2"/>
+    <Metric Name="Timing-tstoragefile-stat-numSuccessfulOperations" Value="2"/>
+    <Metric Name="Timing-tstoragefile-stat-totalMegabytes" Value="0"/>
+    <Metric Name="Timing-tstoragefile-stat-totalMsecs" Value="0.005241"/>
+    <Metric Name="Timing-tstoragefile-write-maxMsecs" Value="0.908498"/>
+    <Metric Name="Timing-tstoragefile-write-minMsecs" Value="0.002207"/>
+    <Metric Name="Timing-tstoragefile-write-numOperations" Value="6374"/>
+    <Metric Name="Timing-tstoragefile-write-numSuccessfulOperations" Value="6374"/>
+    <Metric Name="Timing-tstoragefile-write-totalMegabytes" Value="3.01945"/>
+    <Metric Name="Timing-tstoragefile-write-totalMsecs" Value="44.2685"/>
+    <Metric Name="Timing-tstoragefile-writeActual-maxMsecs" Value="0.908148"/>
+    <Metric Name="Timing-tstoragefile-writeActual-minMsecs" Value="0.002075"/>
+    <Metric Name="Timing-tstoragefile-writeActual-numOperations" Value="6374"/>
+    <Metric Name="Timing-tstoragefile-writeActual-numSuccessfulOperations" Value="6374"/>
+    <Metric Name="Timing-tstoragefile-writeActual-totalMegabytes" Value="3.01945"/>
+    <Metric Name="Timing-tstoragefile-writeActual-totalMsecs" Value="41.7926"/>
+    <Metric Name="Timing-tstoragefile-writeViaCache-maxMsecs" Value="0"/>
+    <Metric Name="Timing-tstoragefile-writeViaCache-minMsecs" Value="0"/>
+    <Metric Name="Timing-tstoragefile-writeViaCache-numOperations" Value="6374"/>
+    <Metric Name="Timing-tstoragefile-writeViaCache-numSuccessfulOperations" Value="0"/>
+    <Metric Name="Timing-tstoragefile-writeViaCache-totalMegabytes" Value="0"/>
+    <Metric Name="Timing-tstoragefile-writeViaCache-totalMsecs" Value="0"/>
+  </PerformanceSummary>
+</PerformanceReport>
+</FrameworkJobReport>
